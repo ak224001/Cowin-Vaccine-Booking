@@ -1,0 +1,9 @@
+.song-name{
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: black;
+  }
+  .author-name{
+    font-weight: lighter;
+    color: gray;
+  }

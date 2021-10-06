@@ -1,0 +1,226 @@
+.RoleCreate {
+    /* box-shadow: 3px 13px 21px 0 rgba(0, 0, 0, 0.08); */
+    width: 100%;
+   
+  }
+  
+  .RoleCreatecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 121px);
+    position: relative;
+  }
+  
+  .header {
+    color: #eee;
+    font-size: 32px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    font-weight: normal;
+    padding: 10px ;
+    display: flex;
+    justify-content: center;
+    /* background-image: linear-gradient(93deg, #2467e2, #2b3bc4); */
+    color: #002060;
+    margin-top: 2px;
+  }
+  
+  .RoleCreateBtn {
+    position: absolute;
+    right: 250px;
+    bottom: 70px;
+  }
+  
+  .CloseImage {
+    margin-right: 10px;
+    height: 10px;
+    margin-top: 0px !important;
+  }
+  
+  .SelectImage {
+    margin-right: 10px;
+    height: 10px;
+    margin-top: 0px !important;
+  }
+  .RoleCreatecontainer h2 {
+    top: 85px;
+    left: 91px;
+    margin-bottom: 0px;
+    transform: rotate(-90deg);
+    transform-origin: center top 0;
+    margin-top: 0px;
+    position: absolute;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #474747;
+  }
+  
+  .CreateRoleIcon {
+    position: absolute;
+    top: 30px;
+    left: 186px;
+    height: 23px;
+  }
+  
+  .createForm {
+    padding: 5px 60px 10px;
+    background: #fff;
+    height: 68vh;
+    overflow-y: scroll;
+  }
+  
+  .createFormAllAgents{
+    padding: 5px 60px 10px;
+    background: #fff;
+    height: 58vh;
+    overflow-y: scroll;
+  }
+  
+  .title {
+    transform: rotate(0deg);
+    position: absolute;
+    left: 75px;
+    top: 16px;
+    font-family: "Lato", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: black;
+  }
+  
+  
+  .radioButtonPosition{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  .HeaderContainer{
+    display: flex;
+    justify-content: space-between;
+  }
+  .search:focus {
+    outline: 0 !important;
+}
+
+
+
+.CitiesRoot{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+  
+.space{
+  margin-right: 30px;
+}
+
+
+.text_favourite_tunes{
+  font-size:25px;
+  color: white;
+  font-weight:bold;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;;
+}
+.text_all_and_all{
+  font-size:16px;
+  color: white;
+  font-weight:bold;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;;
+}
+
+.releasedSongs {
+margin-top: 20px;
+padding: 10px 40px 10px 40px;
+}
+.releasedSongsHeader {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-bottom: 10px;
+}
+.moveableCards {
+display: flex;
+flex-direction: row;
+color:blue;
+}
+.releasedView {
+/* position: absolute; */
+/* width: 100%; */
+margin-right: 20px;
+box-sizing: border-box;
+padding: 0;
+/* background: #fdfdfd;
+border: 1px solid #f0f0f0; */
+}
+.cardContentDaily li {
+/* width: 144px; */
+border: 1px solid #ebe9e9;
+margin-right: 40px;
+border-radius: 5px;
+}
+.cardContentDaily {
+display: flex;
+flex-direction: row;
+transition: transform 0.8s ease 0s;
+list-style: none;
+white-space: nowrap;
+padding: 0;
+margin: 0;
+}
+.released_this_week_text{
+  font-size:18px;
+  font-weight: bold;
+  color:#002060;
+  font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+}
+.songContainer{
+  overflow-y: scroll;
+  
+  height: 80vh;
+}
+
+.bottonContent p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  line-height: 32px;
+  justify-content: center;
+  color: #707070;
+  font-size: 17px;
+  font-weight: 700;
+}
+.dailyBottonContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 130px;
+  border-bottom: 1px solid #9b9292
+}
+.dailyBottonContent p{
+  margin-top: 0px;
+
+}
+.dailyBottonContent span
+{
+  color: #151414;
+  font-weight: 500;
+}
+
+.dailyBottonContent > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.Heading_Centers{
+  margin-top: 10px;
+}
